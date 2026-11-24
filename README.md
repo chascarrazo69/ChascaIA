@@ -4,7 +4,7 @@
 
 * **Autores:** Mario Andújar Gómez, David Fernández Hernández
 * **Dominio:** `https://fernandez-andujar-dario.proyecto-daw.iesabdera.local`
-* **Gestión del proyecto:** [[Enlace al tablero de GitHub Projects]](https://github.com/users/chascarrazo69/projects/1)
+* **Gestión del proyecto:** [Enlace al tablero de GitHub Projects](https://github.com/users/chascarrazo69/projects/1)
 
 ---
 
@@ -66,9 +66,9 @@ La aplicación se divide en 4 contenedores definidos en `docker-compose.yml`:
 
 1. Clonar el repositorio y copiar `.env.example` a `.env`, rellenando la contraseña de MySQL, la clave secreta y la API Key de Groq.
 2. Añadir al archivo `hosts` del sistema la línea:
-   `127.0.0.1 [apellido1]-[apellido2]-[nombre].proyecto-daw.iesabdera.local`
+   `127.0.0.1 fernandez-andujar-dario.proyecto-daw.iesabdera.local`
 3. Ejecutar `docker compose up -d --build`.
-4. Abrir en el navegador `https://[apellido1]-[apellido2]-[nombre].proyecto-daw.iesabdera.local`.
+4. Abrir en el navegador `https://fernandez-andujar-dario.proyecto-daw.iesabdera.local`.
 
 ---
 
